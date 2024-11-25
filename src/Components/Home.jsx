@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React,{ useState } from 'react';
 import './Home.css';
-
 const Home = () => {
     const [birthDate, setBirthDate] = useState('');
     const [age, setAge] = useState(null);
